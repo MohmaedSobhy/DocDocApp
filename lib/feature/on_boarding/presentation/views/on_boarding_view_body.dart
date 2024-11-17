@@ -1,4 +1,3 @@
-import 'package:docdoc_app/core/utils/app_string.dart';
 import 'package:flutter/material.dart';
 
 class OnBoardingViewBody extends StatelessWidget {
