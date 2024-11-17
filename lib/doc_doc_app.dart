@@ -1,3 +1,4 @@
+import 'package:docdoc_app/core/routes/app_route.dart';
 import 'package:flutter/material.dart';
 
 class DocDocApp extends StatelessWidget {
@@ -7,6 +8,8 @@ class DocDocApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
+      initialRoute: AppRoutes.boarding,
+      onGenerateRoute: AppRoutes.onGenerateRoute,
     );
   }
 }
